@@ -36,6 +36,15 @@ footer p {
  margin: auto;
 }
 
+.dropdown:hover.dropdown-menu{
+	display: block;
+}
+
+.dropdown.dropdown-menu.li{
+	display: none;
+	list-style: none;
+}
+
 
 
 @media screen and (max-width: 768px) {
@@ -48,4 +57,10 @@ footer p {
   font-size: 200%;
  }
 
+}
+
+.home{
+	color: orange;
+	text-align: right;
+	margin-right: 10px;
 }
